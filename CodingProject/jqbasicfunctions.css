@@ -1,0 +1,520 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrapper{
+  width:1000px;
+  background-color:rgb(156, 168, 196);
+  overflow: hidden;
+  height: 2800px;
+  border-radius: 15px;
+}
+#header{
+  display: inline-block;
+  background-color: rgb(60,60,60);
+  height:100px;
+  width:1000px;
+  border-radius:15px;
+}
+#footer{
+  display: inline-block;
+  background-color: rgb(60,60,60);
+  height:100px;
+  width:1000px;
+  border-radius:15px;
+  position: absolute;
+  bottom: -980px;
+  margin-bottom: -840px;
+}
+#rec1{
+
+}
+#h1{
+  display: inline-block;
+  position: absolute;
+  bottom: 780px;
+  margin-left: 450px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#h1words{
+  display: inline-block;
+  position: absolute;
+  bottom: 740px;
+  margin-left: 320px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+.interaction{
+  color: ghostwhite;
+}
+#divider1{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: 695px;
+  margin-left: 250px;
+}
+#h2{
+  display: inline-block;
+  position: absolute;
+  bottom: 610px;
+  margin-left: 400px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#h2words{
+  display: inline-block;
+  position: absolute;
+  bottom: 570px;
+  margin-left: 300px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#rec2{
+
+}
+#h3{
+  display: inline-block;
+  position: absolute;
+  margin-left: 430px;
+  bottom: 440px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#p1{
+  display: inline-block;
+  position: absolute;
+  bottom: 400px;
+  margin-left: 270px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider2{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: 515px;
+  margin-left: 250px;
+}
+#h4{
+  display: inline-block;
+  position: absolute;
+  margin-left: 390px;
+  bottom: 270px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#p2{
+  display: inline-block;
+  position: absolute;
+  margin-left: 250px;
+  bottom: 230px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider3{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: 350px;
+  margin-left: 250px;
+}
+#h5{
+  display: inline-block;
+  position: absolute;
+  margin-left: 385px;
+  bottom: 100px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#p3{
+  display: inline-block;
+  position: absolute;
+  margin-left: 305px;
+  bottom: 60px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider4{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: 180px;
+  margin-left: 250px;
+}
+#h6{
+  display: inline-block;
+  position: absolute;
+  margin-left: 414px;
+  bottom: -70px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#p4{
+  display: inline-block;
+  position: absolute;
+  margin-left: 225px;
+  bottom: -110px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider5{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: -155px;
+  margin-left: 250px;
+}
+#h7{
+  display: inline-block;
+  position: absolute;
+  margin-left: 422px;
+  bottom: -240px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#p5{
+  display: inline-block;
+  position: absolute;
+  margin-left: 250px;
+  bottom: -260px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#h7words{
+  display: inline-block;
+  position: absolute;
+  margin-left: 286px;
+  bottom: -286px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider6{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: -335px;
+  margin-left: 250px;
+}
+#h8{
+  display: inline-block;
+  position: absolute;
+  margin-left: 422px;
+  bottom: -410px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#p6{
+  display: inline-block;
+  position: absolute;
+  margin-left: 250px;
+  bottom:-430px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#h8words{
+  display: inline-block;
+  position: absolute;
+  margin-left: 233px;
+  bottom:-450px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider7{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: -500px;
+  margin-left: 250px;
+}
+#h9{
+  display: inline-block;
+  position: absolute;
+  margin-left: 433px;
+  bottom: -580px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#p7{
+  display: inline-block;
+  position: absolute;
+  margin-left: 350px;
+  bottom: -620px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider8{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: -670px;
+  margin-left: 250px;
+}
+#h10{
+  display: inline-block;
+  position: absolute;
+  margin-left: 409px;
+  bottom: -750px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#pinky{
+  display: inline-block;
+  position: absolute;
+  margin-left: 250px;
+  bottom: -850px;
+}
+#h10words{
+  display: inline-block;
+  position: absolute;
+  margin-left: 290px;
+  bottom:-790px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider9{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: -855px;
+  margin-left: 250px;
+}
+#h11{
+  display: inline-block;
+  position: absolute;
+  margin-left: 394px;
+  bottom:-920px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#flip{
+  position: absolute;
+  bottom:-1040px;
+  margin-left: 252px;
+}
+#panel{
+  position: absolute;
+  bottom:-1040px;
+  margin-left: 252px;
+}
+#h11words{
+  display: inline-block;
+  position: absolute;
+  bottom:-960px;
+  margin-left: 250px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider10{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: -1045px;
+  margin-left: 252px;
+}
+#h12{
+  display: inline-block;
+  position: absolute;
+  margin-left: 391px;
+  bottom: -1120px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#typebar{
+  display: inline-block;
+  position: absolute;
+  margin-left: 277px;
+  bottom: -1180px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#h12words{
+  display: inline-block;
+  position: absolute;
+  margin-left: 125px;
+  bottom: -1150px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider11{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: -1222px;
+  margin-left: 250px;
+}
+#h13{
+  display: inline-block;
+  position: absolute;
+  margin-left: 388px;
+  bottom: -1290px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#content{
+  display: inline-block;
+  position: absolute;
+  margin-left: 315px;
+  bottom: -1350px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#h13words{
+  display: inline-block;
+  position: absolute;
+  margin-left: 245px;
+  bottom: -1320px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider12{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: -1390px;
+  margin-left: 250px;
+}
+#h14{
+  display: inline-block;
+  position: absolute;
+  margin-left: 345px;
+  bottom: -1460px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#pic{
+  display: inline-block;
+  position: absolute;
+  margin-left: 420px;
+  bottom: -1520px;
+}
+#h14words{
+  display: inline-block;
+  position: absolute;
+  margin-left: 180px;
+  bottom: -1490px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider13{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: -1555px;
+  margin-left: 250px;
+}
+#h15{
+  display: inline-block;
+  position: absolute;
+  margin-left: 415px;
+  bottom: -1620px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: ghostwhite;
+}
+#p8{
+  display: inline-block;
+  position: absolute;
+  margin-left: 467px;
+  bottom: -1680px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#h15words{
+  display: inline-block;
+  position: absolute;
+  margin-left: 250px;
+  bottom: -1650px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  color: black;
+}
+#divider14{
+  display: inline-block;
+  position: absolute;
+  height: 2px;
+  width: 500px;
+  background-color: rgb(60,60,60);
+  bottom: 15px;
+  margin-left: 250px;
+}
+#bluec{
+  display: inline-block;
+  width: 1000px;
+}

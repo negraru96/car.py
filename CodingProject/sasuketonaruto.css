@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrapper{
+  width:1000px;
+  background-color:rgb(156, 168, 196);
+  overflow: hidden;
+  height: 1400px;
+  border-radius: 15px;
+}
+#title{
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  margin-left: 200px;
+  font-size: 45px;
+  color: orange;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: .5px;
+  border-color: ghostwhite;
+  border-radius: 5px 5px 5px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+#sasuke1{
+  display: inline-block;
+  position: absolute;
+  top:300px;
+  margin-left: 300px;
+}
+#sasuke2{
+  display: inline-block;
+  position: absolute;
+  top:400px;
+  margin-left:300px;
+}
+#sasuke3{
+  display: inline-block;
+  position: absolute;
+  top: 500px;
+  margin-left: 300px;
+}
+#sasuke4{
+  display: inline-block;
+  position: absolute;
+  top: 600px;
+  margin-left: 300px;
+}
+#sasuke5{
+  display: inline-block;
+  position: absolute;
+  top: 700px;
+  margin-left: 300px;
+}
+#naruto1{
+  position: absolute;
+  top: 300px;
+  margin-left: 300px;
+  display: inline-block;
+}
+#naruto2{
+  position: absolute;
+  top: 400px;
+  margin-left: 300px;
+  display: inline-block;
+}
+#naruto3{
+  position: absolute;
+  top: 500px;
+  margin-left: 300px;
+  display: inline-block;
+}
+#naruto4{
+  position: absolute;
+  top: 600px;
+  margin-left: 300px;
+  display: inline-block;
+}
+#naruto5{
+  position: absolute;
+  top: 700px;
+  margin-left: 300px;
+  display: inline-block;
+}

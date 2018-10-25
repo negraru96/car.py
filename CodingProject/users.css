@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrapper{
+  width:1000px;
+  background-color:rgb(ghostwhite);
+  overflow: hidden;
+  height: 2500px;
+}
+#header{
+  display: inline-block;
+  position: absolute;
+  top: 53px;
+  margin-left: 50px;
+  height:30px;
+  width:520px;
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+#Fname{
+  display: inline-block;
+  position: absolute;
+  top: 59px;
+  margin-left: 60px;
+  font-weight: bold;
+}
+#Lname{
+  display: inline-block;
+  position: absolute;
+  top: 59px;
+  font-weight: bold;
+  margin-left: 180px;
+}
+#Eaddress{
+  display: inline-block;
+  position: absolute;
+  top: 59px;
+  font-weight: bold;
+  margin-left: 300px;
+}
+#Cnumber{
+  display: inline-block;
+  position: absolute;
+  top: 59px;
+  font-weight: bold;
+  margin-left: 452px;
+}
+#bigadd{
+  display: inline-block;
+  position: absolute;
+  margin-left: 50px;
+  top: 150px;
+  font-weight: bold;
+  font-size: 35px;
+}
+#bigaddrec{
+  display: inline-block;
+  position: absolute;
+  margin-left: 50px;
+  top: 185px;
+  height: 2px;
+  width: 300px;
+  background-color: gray;
+}
+#fname{
+  display: inline-block;
+  position: absolute;
+  top: 220px;
+  margin-left: 125px;
+}
+#lname{
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  margin-left: 127px;
+}
+#eaddress{
+  display: inline-block;
+  position: absolute;
+  top: 280px;
+  margin-left: 102px;
+}
+#cnumber{
+  display: inline-block;
+  position: absolute;
+  top: 310px;
+  margin-left: 119px;
+}
+#submit{
+  display: inline-block;
+  position: absolute;
+  margin-left: 274px;
+  width: 60px;
+  top:400px;
+  background-color: rgb(196,207,211);
+}
+.list{
+  font-size: 20px;
+}

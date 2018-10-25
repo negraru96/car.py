@@ -1,0 +1,189 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#wrapper{
+  width: 970px;
+  background-color:navy;
+  margin: 0px auto;
+  overflow: hidden;
+  height: 690px;
+}
+#header{
+  height: 100px;
+  background-color:red;
+  display: block;
+  margin: 10px;
+  border-radius: 10px;
+}
+#sidebar{
+  height: 225px;
+  width: 200px;
+  background-color:cyan;
+  display: inline-block;
+  margin-left: 10px;
+  opacity: 0.7;
+  border-radius: 10px;
+  margin-top: 50px;
+
+}
+#body{
+  height: 470px;
+  width: 725px;
+  background-color:black;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-left: 235px;
+  border-radius: 10px;
+  margin-top: -230px;
+}
+#footer{
+  height: 60px;
+  width: 940px;
+  background-color:gray;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 40px;
+  border-radius: 20px;
+  margin-bottom: -42px;
+}
+#Jsheader{
+  color:white;
+  font-size: 35px;
+  margin-left: 40px;
+  margin-top: -80px;
+}
+#sbmenu li a{
+  color:white;
+  margin-left: 40px;
+  list-style: circle;
+}
+.Vdec{
+  color:cyan;
+  list-style-type: circle;
+  display: inline-block;
+  text-decoration: underline;
+  font-size: 13.5px;
+  margin-top:5px;
+}
+.Js{
+  color:cyan;
+  text-decoration: underline;
+  font-size: 13.5px;
+}
+#Vass{
+  color:cyan;
+  list-style: circle;
+  display: inline-block;
+  text-decoration: underline;
+  margin-left: 260px;
+  font-size: 13.5px;
+}
+#first{
+  color:white;
+  margin-left: 250px;
+  margin-top: -470px;
+  margin-bottom: 5px;
+  font-size: 20px
+}
+#second{
+  color:white;
+  margin-left: 250px;
+  font-size: 13.5px;
+}
+#third{
+  color:white;
+  margin-left: 265px;
+  font-size: 13.5px;
+}
+#fourth{
+  color:white;
+  margin-left: 265px;
+  font-size: 13.5px;
+}
+#fifth{
+  color:white;
+  margin-left: 265px;
+  font-size: 13.5px;
+}
+#sixth{
+  color:white;
+  margin-left: 265px;
+  font-size: 13.5px;
+}
+#seventh{
+  color:white;
+  margin-left: 265px;
+  font-size: 13.5px;
+}
+#eighth{
+  color:white;
+  margin-left: 265px;
+  font-size: 13.5px;
+}
+#footertext{
+  color:white;
+  display: inline-block;
+  margin-left: 40px;
+}
+#Dt{
+  color:cyan;
+  list-style: circle;
+  text-decoration: underline;
+  display: inline-block;
+  margin-left: 260px;
+  font-size: 13.5px;
+}
+#Cond{
+  color:cyan;
+  list-style: circle;
+  text-decoration: underline;
+  display: inline-block;
+  margin-left: 260px;
+  font-size: 13.5px;
+}
+#Loop{
+  color:cyan;
+  list-style: circle;
+  text-decoration: underline;
+  display: inline-block;
+  margin-left:260px;
+  font-size: 13.5px;
+}
+#Function{
+  color:cyan;
+  list-style: circle;
+  text-decoration: underline;
+  display: inline-block;
+  margin-left: 260px;
+  font-size: 13.5px;
+}
+#Js{
+  color:cyan;
+  text-decoration: underline;
+  display: inline-block;
+}
+.varx{
+  color:rgb(110,0,300);
+  font-size: 13.5px;
+}
+.vary{
+  color:rgb(110,0,300);
+  font-size: 13.5px;
+}
+#divsbmenu{
+  display: inline-block;
+  margin-left: -220px;
+}
+#footext{
+  margin-left: 5px;
+}
+#indent1{
+  text-indent: 20px;
+  list-style-type: circle;
+}
+#indent2{
+  text-indent: 40px;
+  list-style-type:lower-alpha;
+}

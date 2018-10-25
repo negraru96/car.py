@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="jqbasicfunctions.css">
+    <meta charset="utf-8">
+    <title>jQuery Basic Functions</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#h1').click(function () {
+          alert('Whats good?');
+        });
+        $('#h2').click(function () {
+        $('#h2words').hide(function () {
+        $('#h2words').show(function () {
+        });
+        });
+        });
+        $('#h3').click(function () {
+        $('#p1').toggle(function () {
+        });
+        });
+        $('#h4').click(function () {
+        $('#p2').slideToggle(function () {
+        });
+        });
+        $('#h5').click(function () {
+        $('#p3').fadeOut(function () {
+        $('#p3').fadeIn(function () {
+        });
+        });
+        });
+        $('#h6').click(function () {
+        $('#p4').slideUp(function () {
+        });
+        });
+        $("#h7").click(function() {
+        $("#p5").append(" <b>New stuff has appeared!</b>");
+        });
+        $("#h8").click(function() {
+        $("#p6").append(" <b>Newer stuff has appeared in COLOR! WOW!</b>");
+        $("#p6").css("color", "pink");
+        });
+        $("#h9").click(function() {
+        $("#p7").html(" <b>HAHAHAH you actually clicked it! WOW.</b>");
+        });
+        $("#h10").click(function() {
+        $("#pinky").animate({left:'400px'});
+        });
+        $("#flip").click(function(){
+        $("#panel").slideDown(5500);
+        });
+        $("#h11").click(function() {
+        $("#panel").stop();
+        });
+        $("#h12").click(function() {
+          alert("Value:" + $("#test").val());
+        });
+        $("#h13").click(function() {
+          alert("Text:" + $("#content").text());
+        });
+        $("#h14").click(function() {
+          alert($("#lol").attr("href"));
+        });
+        $("#h15").click(function() {
+        $("#p8").before("<p>Courage</p>");
+        });
+      });
+  </script>
+  <style>
+  #panel, #flip {
+    padding: 5px;
+    font-size:15px;
+    text-align: center;
+    background-color: red;
+    color: black;
+    border: solid 1px yellow;
+    border-radius:3px;
+    width: 500px;
+  }
+  #panel {
+    padding:40px;
+    display: none;
+  }
+  </style>
+  </head>
+  <body>
+        <div id="h1">Click</div>
+          <p id="h1words">Click the <span class="interaction">Click</span> button to get a sweet greeting!</p>
+        <div id="h2">Hide/Show</div>
+          <p id="h2words">Click the <span class="interaction">Hide/Show</span> button to Hide and Show me!</p>
+        <div id="h3">Toggle</div>
+          <p id="p1">Click the <span class="interaction">Toggle</span> button to make me disappear or reappear.</p>
+        <div id="h4">Slide Toggle</div>
+          <p id="p2">Click the <span class="interaction">Slide Toggle</span> button to send me dooooown into nothing</p>
+        <div id="h5">Fade In/Out</div>
+          <p id="p3">Click the <span class="interaction">Fade In/Out</span> button to make me spooky</p>
+        <div id="h6">Slide Up</div>
+          <p id="p4">Click the <span class="interaction">Slide Up</span> button to make me slide down and disappear forever!</p>
+        <div id="h7">Append</div>
+          <p id="p5"></p>
+          <p id="h7words">Click the <span class="interaction">Append</span> button to make new stuff appear!</p>
+        <div id="h8">COLOR</div>
+          <p id="p6"></p>
+          <p id="h8words">Click the <span class="interaction">COLOR</span> button to make even newer stuff appear... in color!</p>
+        <div id="h9">HTML</div>
+          <p id="p7">Click the <span class="interaction">HTML</span> button! I dare you!</p>
+        <div id="h10">Animate</div>
+          <div id="pinky"style="background:pink;height:50px;width:50px;position:absolute;"></div>
+          <p id="h10words">Click the <span class="interaction">Animate</span> button to make this block move!</p>
+        <div id="h11">Stop Slide</div>
+          <div id="flip">Click me to start the slide!</div>
+          <div id="panel">IM GOING 2 DOMINATE THE WORLD! >:D</div>
+          <p id="h11words">Press the <span class="interaction">Stop Slide</span> button before it gets to me to save the world!</p>
+        <div id="h12">Show Value</div>
+          <p id="typebar">Type your fav word: <input type="text" id="test" value="Your Fav Word"></p>
+          <p id="h12words">Type your favorite word in the word bar, then click the <span class="interaction">Show Value</span> button to see it appear as an alert.</p>
+        <div id="h13">Show Text</div>
+          <p id="content">"Wow! I wonder what these text contents are!""</p>
+          <p id="h13words">Click the <span class="interaction">Show Text</span> button to see the phrase appear as an alert.</p>
+        <div id="h14">Show href Value</div>
+          <p id="pic"><a href="https://imgur.com/gallery/xn4cYl4" id="lol">Idareu2link2dis</a></p>
+          <p id="h14words">Click the <span class="interaction">Show href Value</span> button to display the full link of the shown site in an alert.</p>
+        <div id="h15">Before</div>
+          <p id="p8">Bravery</p>
+          <p id="h15words">Click the <span class="interaction">Before</span> button to have Courage come before Bravery</p>
+        <div id="wrapper">
+          <div id="header"></div>
+          <div id="footer"></div>
+          <div id="rec1"></div>
+          <div id="divider1"></div>
+          <div id="rec2"></div>
+          <div id="divider2"></div>
+          <div id="rec3"></div>
+          <div id="divider3"></div>
+          <div id="rec4"></div>
+          <div id="divider4"></div>
+          <div id="rec5"></div>
+          <div id="divider5"></div>
+          <div id="rec6"></div>
+          <div id="divider6"></div>
+          <div id="rec7"></div>
+          <div id="divider7"></div>
+          <div id="rec8"></div>
+          <div id="divider8"></div>
+          <div id="rec9"></div>
+          <div id="divider9"></div>
+          <div id="rec10"></div>
+          <div id="divider10"></div>
+          <div id="rec11"></div>
+          <div id="divider11"></div>
+          <div id="rec12"></div>
+          <div id="divider12"></div>
+          <div id="rec13"></div>
+          <div id="divider13"></div>
+          <div id="rec14"></div>
+          <div id="divider14"></div>
+          <div id="rec15"></div>
+        </div>
+  </body>
+</html>

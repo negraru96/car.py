@@ -1,0 +1,308 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrapper{
+  width:1300px;
+  overflow: hidden;
+  height:900px;
+  background-color: lightslategray;
+}
+#hexagon{
+  width:900px;
+  height: 1000px;
+  opacity: 0.75;
+}
+.hexagon1 {
+  position: absolute;
+  width: 300px;
+  height: 170px;
+  background-color: lightslategray;
+  margin-left: 608px;
+  display: inline-block;
+  top: 95px;
+  box-shadow: 0 0 5px;
+  opacity: 0.95;
+}
+.hexagon1:before,
+.hexagon1:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+.hexagon1:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid lightslategray;
+}
+.hexagon1:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid lightslategray;
+}
+#hex1txt{
+  display: inline-block;
+  position: absolute;
+  top: 170px;
+  margin-left: 429px;
+  font-family: futura;
+  color: white;
+  text-decoration: overline;
+  text-shadow: 0 1px darkgoldenrod;
+  z-index: +1;
+}
+.hexagon2 {
+  position: absolute;
+  width: 300px;
+  height: 170px;
+  background-color: lightslategray;
+  margin-left: 296px;
+  display: inline-block;
+  top: 95px;
+  box-shadow: 0 0 5px;
+  opacity: 0.95;
+}
+.hexagon2:before,
+.hexagon2:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+.hexagon2:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid lightslategray;
+}
+.hexagon2:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid lightslategray;
+}
+#hex2txt{
+  display: inline-block;
+  position: absolute;
+  top:170px;
+  margin-left: 730px;
+  font-family: futura;
+  color: white;
+  text-decoration: overline;
+  text-shadow: 0 1px darkgoldenrod;
+}
+.hexagon3 {
+  position: absolute;
+  width: 300px;
+  height: 170px;
+  background-color: lightslategray;
+  margin-left: 609px;
+  display: inline-block;
+  top: 280px;
+  margin-top: 350px;
+  box-shadow: 0 0 5px;
+  opacity: 0.95;
+}
+.hexagon3:before,
+.hexagon3:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+.hexagon3:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid lightslategray;
+}
+.hexagon3:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid lightslategray;
+}
+#hex3txt{
+  display: inline-block;
+  position: absolute;
+  top: 434px;
+  margin-left: 243px;
+  font-family: futura;
+  color: white;
+  text-decoration: overline;
+  text-shadow: 0 1px darkgoldenrod;
+  z-index: +1
+}
+.hexagon4 {
+  position: absolute;
+  width: 300px;
+  height: 170px;
+  background-color: lightslategray;
+  margin-left: 295px;
+  display: inline-block;
+  top: 280px;
+  margin-top: 350px;
+  box-shadow: 0 0 5px;
+  opacity: 0.95;
+}
+.hexagon4:before,
+.hexagon4:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+.hexagon4:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid lightslategray;
+}
+.hexagon4:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid lightslategray;
+}
+#hex4txt{
+  display: inline-block;
+  position: absolute;
+  bottom: 263px;
+  margin-left: 373px;
+  font-family: futura;
+  color: white;
+  text-decoration: overline;
+  text-shadow: 0 1px darkgoldenrod;
+}
+.hexagon5 {
+  position: absolute;
+  width: 300px;
+  height: 170px;
+  background-color: lightslategray;
+  margin-left: 766px;
+  display: inline-block;
+  top: 353px;
+  margin-top:10px;
+  box-shadow: 0 0 5px;
+  opacity: 0.95;
+}
+.hexagon5:before,
+.hexagon5:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+.hexagon5:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid lightslategray;
+}
+.hexagon5:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid lightslategray;
+}
+#hex5txt{
+  display: inline-block;
+  position: absolute;
+  top: 434px;
+  margin-left: 888px;
+  font-family: futura;
+  color: white;
+  text-decoration: overline;
+  text-shadow: 0 1px darkgoldenrod;
+}
+.hexagon6 {
+  position: absolute;
+  width: 300px;
+  height: 170px;
+  background-color: lightslategray;
+  margin-left: 138px;
+  display: inline-block;
+  top: 363px;
+  box-shadow: 0 0 5px;
+  opacity: 0.95;
+}
+.hexagon6:before,
+.hexagon6:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+.hexagon6:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid lightslategray;
+}
+.hexagon6:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid lightslategray;
+}
+#hex6txt{
+  display: inline-block;
+  position: absolute;
+  bottom: 263px;
+  margin-left: 694px;
+  font-family: futura;
+  color: white;
+  text-decoration: overline;
+  text-shadow: 0 1px darkgoldenrod;
+}
+.hexagon7 {
+  position: absolute;
+  width: 300px;
+  height: 170px;
+  background-color: black;
+  margin-left: 452px;
+  display: inline-block;
+  top: 353px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px;
+  opacity: 0.85;
+}
+.hexagon7:before,
+.hexagon7:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+.hexagon7:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid black;
+}
+.hexagon7:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid black;
+}
+#hex7txt{
+  display: inline-block;
+  position: absolute;
+  top: 446px;
+  margin-left: 503px;
+  font-family: futura;
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 0 1px darkgoldenrod;
+}
+#hexweb{
+  display: inline-block;
+  position: absolute;
+  top:385px;
+  margin-left: 502px;
+  font-family: futura;
+  color: darkgoldenrod;
+  font-weight: bold;
+  font-size:45px;
+  text-shadow:1px 1px white;
+}
+#TM{
+  display: inline-block;
+  position: absolute;
+  top:392px;
+  margin-left: 706px;
+  font-family: futura;
+  color: darkgoldenrod;
+  font-size: 10px;
+}

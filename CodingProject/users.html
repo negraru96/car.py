@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="users.css">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+      //  $("form").submit(function () {
+      //  $("#submit").on('click',function () {
+         $("#submit").click(function () {
+           var toAdd = $("input[name=fname]").val();
+           $("#Fname").append("<div class='item'>" +toAdd+ "</div>");
+           var toAdd = $("input[name=lname]").val();
+           $("#Lname").append("<div class='item'>" +toAdd+ "</div>")
+           var toAdd = $("input[name=eaddress]").val();
+           $("#Eaddress").append("<div class='item'>" +toAdd+ "</div>")
+           var toAdd = $("input[name=cnumber]").val();
+           $("#Cnumber").append("<div class='item'>" +toAdd+ "</div>")
+      //   $("#Fname").text("John").fadeIn();
+      //   $("#Lname").text("Doe").fadeIn ();
+      //   $("#Eaddress").text("123 FourFive Ave.").fadeIn ();
+      //   $("#Cnumber").text("1-702-123-4567").fadeIn ();
+          //$("form").append("Submitted");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header"></div>
+      <div id="Fname">First Name</div>
+      <div id="Lname">Last Name</div>
+      <div id="Eaddress">Email Address</div>
+      <div id="Cnumber">Contact #</div>
+      <div id="bigadd">Add User</div>
+      <div id="bigaddrec"></div>
+      <p id="fname">First Name: <input type="text" name="fname" value="First Name"></p>
+      <p id="lname">Last Name: <input type="text" name="lname" value="Last Name"></p>
+      <p id="eaddress">Email Address: <input type="text" name="eaddress" value="Email Address"></p>
+      <p id="cnumber">Contact No.: <input type="text" name="cnumber" value="Phone #"></p>
+        <button id="submit">Add User</button>
+    <div class="list"></div>
+    </div>
+  </body>
+</html>
